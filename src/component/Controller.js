@@ -14,6 +14,7 @@ function Controller ({ handleSetCount, handleReset }){
              <button onClick={() => handleSetCount(100)}>+100</button>
              <button onClick={() => handleSetCount(10)}>+10</button>
              <button onClick={() => handleSetCount(1)}>+1</button>
+             <br></br>
              <button onClick={handleReset}>reset</button>
         </div>
     );

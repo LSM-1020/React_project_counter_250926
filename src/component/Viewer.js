@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Viewer({count}) {
+function Viewer({count,text}) {
     // const [count,setCount] = useState();
     // function handleSetCount(value) {
     //     setCount(count+value);
